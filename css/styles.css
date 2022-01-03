@@ -1,4 +1,33 @@
 body {
-    color: green;
-    background-color: aquamarine;
+    color: black;
+    background-color: #CFEDCE;
+    margin: 0;
+}
+
+nav {
+    background-color: white;
+    height: 40px;
+    position: fixed;
+    width: 1000px; 
+    /* make width of navbar adjust automatically instead of hardcode.
+
+    Align rectangle divs horizontally.
+    
+    Lower rectangle divs so nav bar doesn't cover names.
+    */
+}
+
+h4.navigation {
+    display: inline;
+    position: relative;
+    padding: 20px;
+    top: 10px;
+}
+
+div.rectangle {
+    border: 1px solid white;
+    background: white;
+    border-radius: 10px;
+    height: 400px;
+    width: 200px;
 }
