@@ -1,33 +1,43 @@
 body {
     color: black;
     background-color: #CFEDCE;
+    font-family: 'Raleway', sans-serif;
     margin: 0;
 }
 
 nav {
     background-color: white;
-    height: 40px;
-    position: fixed;
-    width: 1000px; 
-    /* make width of navbar adjust automatically instead of hardcode.
-
-    Align rectangle divs horizontally.
+    height: 80px;
+    position: fixed; 
     
-    Lower rectangle divs so nav bar doesn't cover names.
-    */
 }
 
-h4.navigation {
-    display: inline;
-    position: relative;
-    padding: 20px;
-    top: 10px;
+/* Alias Logo */
+.navbar-brand {
+    font-family: 'Noto Serif', serif;
+    font-size: 2rem;
+    margin: 20px;
+}   
+
+/* Home, Products, About Us, etc. */
+.nav-link {
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
+/* Search Button */
+.btn-outline-success {
+    margin-right: 20px;
+}
+
+/* About Us Summary Rectangles */
 div.rectangle {
     border: 1px solid white;
     background: white;
     border-radius: 10px;
+    display: inline-block;
     height: 400px;
+    margin-top: 20px;
     width: 200px;
 }
